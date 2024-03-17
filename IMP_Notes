@@ -1,0 +1,40 @@
+Lists:
+
+Lists are ordered collections of items that can be of different data types (such as integers, strings, or even other lists).
+They are mutable, which means you can change, add, or remove elements after the list is created.
+Lists are created using square brackets [] and elements are separated by commas.
+Example:
+my_list = [1, 2, "apple", True, [3, 4]]
+
+
+Dictionaries:
+
+Dictionaries are collections of key-value pairs.
+They are unordered, meaning the order of items is not guaranteed (starting from Python 3.7, dictionaries preserve insertion order).
+Each item in a dictionary consists of a key and its corresponding value, separated by a colon : and enclosed in curly braces {}.
+Dictionaries are mutable, so you can add, modify, or delete key-value pairs.
+Example:
+my_dict = {"name": "John", "age": 30, "city": "New York"}
+
+Sets:
+
+Sets are unordered collections of unique elements.
+They do not allow duplicate items; each element in a set is unique.
+Sets are mutable, meaning you can add or remove elements.
+Sets are created using curly braces {} or the set() constructor.
+Example:
+my_set = {1, 2, 3, 4, 5}
+
+Tuples:
+
+Tuples are ordered collections similar to lists, but they are immutable.
+Once a tuple is created, you cannot change its elements (add, remove, or modify).
+Tuples are created using parentheses () and elements are separated by commas.
+Example:
+my_tuple = (1, 2, "apple", True)
+
+
+Lists are ordered and mutable.
+Dictionaries are unordered and mutable key-value pairs.
+Sets are unordered and contain unique elements.
+Tuples are ordered and immutable.
